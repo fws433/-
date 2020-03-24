@@ -1,0 +1,19 @@
+server:
+  port: 2000
+
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/seckill?characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: fws1656621300
+  freemarker:
+    prefix: html/
+    suffix: .ftl
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+
